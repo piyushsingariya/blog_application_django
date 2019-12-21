@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccc27ac-58c3-44d1-a6ec-477fbe885b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/wtYvzTlQaf0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0003_post_view_count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog.html" afterDir="false" />
     </list>

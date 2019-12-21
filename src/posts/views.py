@@ -43,5 +43,5 @@ def blog(request):
     }
     return render(request, 'blog.html', context)
 
-def post(request):
+def post(request, id):
     return render(request, 'post.html', {})
