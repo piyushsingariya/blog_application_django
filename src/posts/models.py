@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce import models as tinymce_models
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 # Create your models here.
@@ -22,7 +23,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     overview = models.TextField(max_length=400)
     categories = models.ManyToManyField(Category)
-
+    content = tinymce_models.HTMLField()
     timestamp = models.DateTimeField(auto_now=True)
     comment_count = models.IntegerField(default=0)
     view_count = models.IntegerField(default=100)
