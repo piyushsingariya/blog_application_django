@@ -32,6 +32,9 @@ class Post(models.Model):
     thumbnail = models.ImageField()
     featured = models.BooleanField(default=False)
 
+    previous_post = models.ForeignKey('self', related_name='previous', on_delete=models.SET_NULL, blank=True, null=True)
+    next_post = models.ForeignKey('self', related_name='next', on_delete=models.SET_NULL, blank=True, null=True)
+
     def __str__(self):
         return self.title
     def get_absolute_url(self):
