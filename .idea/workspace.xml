@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccc27ac-58c3-44d1-a6ec-477fbe885b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0007_auto_20200106_0648.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1577618439538" duration="2416000" />
       <workItem from="1577798796671" duration="6610000" />
       <workItem from="1578197983017" duration="8532000" />
-      <workItem from="1578288031839" duration="2605000" />
+      <workItem from="1578288031839" duration="4077000" />
     </task>
     <servers />
   </component>
