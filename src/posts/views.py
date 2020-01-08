@@ -2,6 +2,7 @@ from django.db.models import Count, Q
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render, get_object_or_404
 from .models import Post
+from .forms import CommentForm
 from marketing.models import Signup
 
 def search(request):
@@ -75,9 +76,17 @@ def post(request, id):
     category_count = get_category_count()
     post1 = get_object_or_404(Post, id=id)
     latest_posts = Post.objects.order_by('-timestamp')[0:3]
+    form = CommentForm(request.POST or None)
+    if request.method == "POST":
+        if form.is_valid():
+            form.instance.user = request.user
+            form.instance.post = post1
+            form.save()
+
     context = {
         'post': post1,
         'category_count': category_count,
         'latest_posts': latest_posts,
+        'form': form,
     }
     return render(request, 'post.html', context)
