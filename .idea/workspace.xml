@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccc27ac-58c3-44d1-a6ec-477fbe885b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0008_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0009_auto_20200109_0642.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.html" afterDir="false" />
@@ -79,7 +77,7 @@
       <workItem from="1577618439538" duration="2416000" />
       <workItem from="1577798796671" duration="6610000" />
       <workItem from="1578197983017" duration="8532000" />
-      <workItem from="1578288031839" duration="6815000" />
+      <workItem from="1578288031839" duration="9819000" />
     </task>
     <servers />
   </component>
