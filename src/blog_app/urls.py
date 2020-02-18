@@ -10,7 +10,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
     path('blog/', blog, name='post-list'),
-    path('create/', post_create, name='post_create'),
+    path('create/', post_create, name='post-create'),
     path('post/<id>/', post, name='post-detail'),
     path('post/<id>/update/', post_update, name='post-update'),
     path('post/<id>/delete/', post_delete, name='post-delete'),
