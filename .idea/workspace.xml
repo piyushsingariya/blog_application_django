@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccc27ac-58c3-44d1-a6ec-477fbe885b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0009_auto_20200109_0642.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/post_create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,9 @@
       <workItem from="1577618439538" duration="2416000" />
       <workItem from="1577798796671" duration="6610000" />
       <workItem from="1578197983017" duration="8532000" />
-      <workItem from="1578288031839" duration="9819000" />
+      <workItem from="1578288031839" duration="10419000" />
+      <workItem from="1580735548641" duration="12000" />
+      <workItem from="1582022747543" duration="1707000" />
     </task>
     <servers />
   </component>
@@ -106,10 +111,10 @@
     </state>
     <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577799366861" />
     <state x="172" y="33" width="1022" height="731" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1576849191384" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578290522774">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582022752590">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1578290522774" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1582022752590" />
     <state x="0" y="28" width="866" height="740" key="find.popup" timestamp="1576852378862">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
